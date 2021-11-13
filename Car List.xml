@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carList>
+    <manufacturers>
+        <manufacturer>
+            <company>Chevrolet</company>
+                <brandSlogan>"Find New Roads"</brandSlogan>
+                <vehicle ID="CTSUV">
+                    <vehicleName>Tahoe</vehicleName>
+                    <vehicleDescription>
+                    The 2022 Tahoe offers six different trims to match your personal utility needs,
+                    while staying true to its classic design. And it’s loaded with modern flare, 
+                    premium touches and impressive power.
+                    </vehicleDescription>
+                    <vehicleModels ID="CTSUVLS">
+                        <name>Chverolet Tahoe LS</name>
+                        <modelYear>2022</modelYear>
+                        <class>LS</class>
+                        <price>49999</price>
+                    </vehicleModels>
+                    <vehicleModels ID="CTSUVLT">
+                        <name>Chverolet Tahoe LS</name>
+                        <modelYear>2022</modelYear>
+                        <class>LT</class>
+                        <price>56999</price>
+                    </vehicleModels>
+                    <vehicleModels ID="CTSUVZ71">
+                        <name>Chverolet Tahoe LS</name>
+                        <modelYear>2022</modelYear>
+                        <class>Z71</class>
+                        <price>61999</price>
+                    </vehicleModels>
+                </vehicle>
+                <vehicleName ID="CS1500">
+                    <vehicleDescription>
+                    Hardworking. Smart. Bigger, yet lighter than the previous generation. 
+                    An available diesel engine that helps it achieve an impressive 33 MPG highway. 
+                    Silverado is built to get the job done right – every time.
+                    </vehicleDescription>
+                    <vehicleModels ID="CS1500LS">
+                        <name>Chverolet Silverado LS</name>
+                        <modelYear>2022</modelYear>
+                        <class>LS</class>
+                        <price>34999</price>
+                    </vehicleModels>
+                    <vehicleModels ID="CS1500LT">
+                        <name>Chverolet Silverado LT</name>
+                        <modelYear>2022</modelYear>
+                        <class>LT</class>
+                        <price>41999</price>
+                    </vehicleModels>
+                    <vehicleModels ID="CS1500Z71">
+                        <name>Chverolet Silverado Z71</name>
+                        <modelYear>2022</modelYear>
+                        <class>Z71</class>
+                        <price>52999</price>
+                    </vehicleModels>
+                </vehicleName>
+                <vehicleName ID="CCMP">
+                    <vehicleDescription>
+                    No matter where you’re going, you’ll look good getting there. 
+                    On top of its bold aesthetics, this truck offers a durable, fully boxed frame 
+                    and a load of purposeful features that help you work smarter and play harder.
+                    </vehicleDescription>
+                    <vehicleModels ID="CCMPLS">
+                        <name>Chverolet Colorado LS</name>
+                        <modelYear>2022</modelYear>
+                        <class>LS</class>
+                        <price>26999</price>
+                    </vehicleModels>
+                    <vehicleModels ID="CCMPLT">
+                        <name>Chverolet Colorado LT</name>
+                        <modelYear>2022</modelYear>
+                        <class>LT</class>
+                        <price>29999</price>
+                    </vehicleModels>
+                    <vehicleModels ID="CCMPZ71">
+                        <name>Chverolet Colorado Z71</name>
+                        <modelYear>2022</modelYear>
+                        <class>Z71</class>
+                        <price>38999</price>
+                    </vehicleModels>
+                </vehicleName>
+                <vehicleName ID="CBEV">
+                    <vehicleDescription>2022 Bolt EV comes standard with Chevy Safety Assist,
+                    a suite of our advanced safety features designed to let you go confidently ahead.
+                    </vehicleDescription>
+                    <vehicleModels ID="CBEVB">
+                        <name>Chevrolet Bolt EV Base</name>
+                        <modelYear>2022</modelYear>
+                        <class>Base</class>
+                        <price>23999</price>
+                    </vehicleModels>
+                    <vehicleModels ID="CBEVLR">
+                        <name>Chevrolet Bolt EV Long Range</name>
+                        <modelYear>2022</modelYear>
+                        <class>Long Range</class>
+                        <price>31999</price>
+                    </vehicleModels>   
+                </vehicleName>
+    </manufacturer>
+    <manufacturer>
+        <company>Ford</company>
+            <brandSlogan>"Built Ford Tough"</brandSlogan>
+            <vehicle car="Bronco">
+                    <vehicleDescription>
+                    The 2022 Ford Bronco™ SUV is ready to help shift your perspective and push boundaries on your terms, 
+                    with a newly available manual transmission with the Sasquatch™ Package — and it doesn’t stop there. 
+                    There are also two new color options, two Special Edition models and much more to come on the horizon.
+                    </vehicleDescription>
+                    <modelYear>2022</modelYear>
+                    <model>Base</model>
+                        <price>27999</price>
+                    <model>Big Bend</model>
+                        <price>28999</price>
+                    <model>Badlands</model>
+                        <price>33999</price>
+            </vehicle>
+            <vehicle car="F150">
+                    <vehicleDescription>
+                    The all-new F-150 is purpose-built from the ground up. 
+                    Redesigned to be the toughest, most productive F-150 ever. 
+                    This is what happens when you merge premium-grade muscle with finely tuned intelligence and design. 
+                    The 2021 North American Truck of the Year.™ A beast with brains. 
+                    A relentlessly tough, high-strength, military-grade, aluminum-alloy body and torture-tested high-strength 
+                    steel frame with new tech to help you work smarter and harder. 
+                    </vehicleDescription>
+                    <modelYear>2022</modelYear>
+                    <model>XL</model>
+                        <price>29999</price>
+                    <model>XLT</model>
+                        <price>35999</price>
+                    <model>Lariat</model>
+                        <price>45999</price>
+            </vehicle>
+            <vehicle car="Ranger">
+                    <vehicleDescription>
+                    The 2021 Ford Ranger is built ready for your next adventure. 
+                    With durable features like a high-strength steel frame and frame-mounted steel bumpers, 
+                    combined with a class-exclusive advanced turbocharged gas engine, 
+                    you can rely on your Ranger whether on your everyday drive or rugged terrain.
+                    </vehicleDescription>
+                    <modelYear>2021</modelYear>
+                    <model>XL</model>
+                        <price>25999</price>
+                    <model>XLT</model>
+                        <price>29999</price>
+                    <model>Lariat</model>
+                        <price>33999</price>
+            </vehicle>
+            <vehicle car="Mustang Mach E">
+                    <vehicleDescription>
+                    Built from all the passion of its iconic heritage, 
+                    Mustang Mach-E is the new shape of freedom. Get in ready for 0–60 thrills, 
+                    expansive range and zero tailpipe emissions.
+                    </vehicleDescription>
+                    <modelYear>2021</modelYear>
+                    <model>Select</model>
+                        <price>42995</price>
+                    <model>Premium</model>
+                        <price>48995</price>
+                    <model>GT</model>
+                        <price>59995</price>
+            </vehicle>
+    </manufacturer>
+    <manufacturer>
+        <company>Tesla</company>
+            <brandSlogan>"Ride Free"</brandSlogan>
+                <vehicle car="Model 3">
+                    <vehicleDescription></vehicleDescription>
+                    <modelYear>2022</modelYear>
+                    <model>RWD</model>
+                        <price>42995</price>
+                    <model>Long Range</model>
+                        <price>48995</price>
+                    <model>Performance</model>
+                        <price>59995</price>
+                </vehicle>
+                <vehicle car="Model S">
+                    <vehicleDescription></vehicleDescription>
+                    <modelYear>2022</modelYear>
+                    <model>Base</model>
+                        <price>89999</price>
+                    <model>Plaid</model>
+                        <price>123999</price>
+                </vehicle>
+                <vehicle car="Model X">
+                    <vehicleDescription></vehicleDescription>
+                    <modelYear>2022</modelYear>
+                    <model>Base</model>
+                        <price>98999</price>
+                    <model>Plaid</model>
+                        <price>113999</price>
+                </vehicle>
+                <vehicle car="Model Y">
+                    <vehicleDescription>
+                    Model Y provides maximum versatility—able to carry 7 passengers and their cargo. 
+                    Each second row seat folds flat independently, creating flexible storage for skis, furniture, luggage and more. 
+                    The liftgate opens to a low trunk floor that makes loading and unloading easy and quick.
+                    </vehicleDescription>
+                    <modelYear>2022</modelYear>
+                    <model>Long Range</model>
+                        <price>51995</price>
+                    <model>Performance</model>
+                        <price>56995</price>
+                </vehicle>
+        <manufacturer>
+    </manufacturers>
+</carList>

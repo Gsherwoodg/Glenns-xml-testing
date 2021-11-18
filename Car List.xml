@@ -3,8 +3,8 @@
     <manufacturers>
         <manufacturer>
             <company>Chevrolet</company>
-                <brandSlogan>"Find New Roads"</brandSlogan>
-                <vehicle ID="CTSUV">
+            <brandSlogan>"Find New Roads"</brandSlogan>
+            <vehicle ID="CTSUV">
                     <vehicleName>Tahoe</vehicleName>
                     <vehicleDescription>
                     The 2022 Tahoe offers six different trims to match your personal utility needs,
@@ -101,21 +101,32 @@
     <manufacturer>
         <company>Ford</company>
             <brandSlogan>"Built Ford Tough"</brandSlogan>
-            <vehicle car="Bronco">
+            <vehicle car="FBSUV">
                     <vehicleDescription>
                     The 2022 Ford Bronco™ SUV is ready to help shift your perspective and push boundaries on your terms, 
                     with a newly available manual transmission with the Sasquatch™ Package — and it doesn’t stop there. 
                     There are also two new color options, two Special Edition models and much more to come on the horizon.
                     </vehicleDescription>
-                    <modelYear>2022</modelYear>
-                    <model>Base</model>
+                    <vehicleModels ID="FBSUVB">
+                        <name>Ford Bronco Base Model</name>
+                        <modelYear>2022</modelYear>
+                        <class>Base</class>
                         <price>27999</price>
-                    <model>Big Bend</model>
+                    </vehicleModels> 
+                    <vehicleModels ID="FBSUVBB">
+                        <name>Ford Bronco Big Bend Edition</name>
+                        <modelYear>2022</modelYear>
+                        <class>Big Bend</class>
                         <price>28999</price>
-                    <model>Badlands</model>
+                    </vehicleModels>
+                    <vehicleModels ID="FBSUVBL">
+                        <name>Ford Bronco Badlands Edition</name>
+                        <modelYear>2022</modelYear>
+                        <class>Badlands</class>
                         <price>33999</price>
+                    </vehicleModels> 
             </vehicle>
-            <vehicle car="F150">
+            <vehicle car="FF150">
                     <vehicleDescription>
                     The all-new F-150 is purpose-built from the ground up. 
                     Redesigned to be the toughest, most productive F-150 ever. 
@@ -124,85 +135,150 @@
                     A relentlessly tough, high-strength, military-grade, aluminum-alloy body and torture-tested high-strength 
                     steel frame with new tech to help you work smarter and harder. 
                     </vehicleDescription>
-                    <modelYear>2022</modelYear>
-                    <model>XL</model>
+                    <vehicleModels ID="FF150XL">
+                        <name>Ford F150 XL</name>
+                        <modelYear>2022</modelYear>
+                        <class>XL</class>
                         <price>29999</price>
-                    <model>XLT</model>
+                    </vehicleModels>
+                    <vehicleModels ID="FF150XLT">
+                        <name>Ford F150 XLT</name>
+                        <modelYear>2022</modelYear>
+                        <class>XLT</class>
                         <price>35999</price>
-                    <model>Lariat</model>
+                    </vehicleModels>
+                    <vehicleModels ID="FF150L">
+                        <name>Ford F150 Lariat</name>
+                        <modelYear>2022</modelYear>
+                        <class>Lariat</class>
                         <price>45999</price>
+                    </vehicleModels>
             </vehicle>
-            <vehicle car="Ranger">
+            <vehicle car="FRMT">
                     <vehicleDescription>
                     The 2021 Ford Ranger is built ready for your next adventure. 
                     With durable features like a high-strength steel frame and frame-mounted steel bumpers, 
                     combined with a class-exclusive advanced turbocharged gas engine, 
                     you can rely on your Ranger whether on your everyday drive or rugged terrain.
                     </vehicleDescription>
-                    <modelYear>2021</modelYear>
-                    <model>XL</model>
+                    <vehicleModels ID="FRMTXL">
+                        <name>Ford Ranger XL</name>
+                        <modelYear>2022</modelYear>
+                        <class>XL</class>
                         <price>25999</price>
-                    <model>XLT</model>
+                    </vehicleModels>
+                    <vehicleModels ID="FRMTXLT">
+                        <name>Ford Ranger</name>
+                        <modelYear>2022</modelYear>
+                        <class>XLT</class>
                         <price>29999</price>
-                    <model>Lariat</model>
+                    </vehicleModels>
+                    <vehicleModels ID="FRMTL">
+                        <name>Ford Ranger Lariat</name>
+                        <modelYear>2022</modelYear>
+                        <class>Lariat</class>
                         <price>33999</price>
+                    </vehicleModels>
             </vehicle>
-            <vehicle car="Mustang Mach E">
+            <vehicle car="FMME">
                     <vehicleDescription>
                     Built from all the passion of its iconic heritage, 
                     Mustang Mach-E is the new shape of freedom. Get in ready for 0–60 thrills, 
                     expansive range and zero tailpipe emissions.
                     </vehicleDescription>
-                    <modelYear>2021</modelYear>
-                    <model>Select</model>
-                        <price>42995</price>
-                    <model>Premium</model>
-                        <price>48995</price>
-                    <model>GT</model>
-                        <price>59995</price>
+                    <vehicleModels ID="FMMES">
+                        <name>Ford Mustang Mach E Select</name>
+                        <modelYear>2022</modelYear>
+                        <class>Select</class>
+                        <price>42999</price>
+                    </vehicleModels>
+                    <vehicleModels ID="FMMEP">
+                        <name>Ford Mustang Mach E Premium</name>
+                        <modelYear>2022</modelYear>
+                        <class>Premium</class>
+                        <price>48999</price>
+                    </vehicleModels>
+                    <vehicleModels ID="FMMEGT">
+                        <name>Ford Mustang Mach E GT</name>
+                        <modelYear>2022</modelYear>
+                        <class>GT</class>
+                        <price>59999</price>
+                    </vehicleModels>
             </vehicle>
     </manufacturer>
     <manufacturer>
         <company>Tesla</company>
             <brandSlogan>"Ride Free"</brandSlogan>
-                <vehicle car="Model 3">
+                <vehicle car="TM3">
                     <vehicleDescription></vehicleDescription>
-                    <modelYear>2022</modelYear>
-                    <model>RWD</model>
-                        <price>42995</price>
-                    <model>Long Range</model>
-                        <price>48995</price>
-                    <model>Performance</model>
-                        <price>59995</price>
+                    <vehicleModels ID="TM3R">
+                        <name>Tesla Modle 3 RWD</name>
+                        <modelYear>2022</modelYear>
+                        <class>RWD</class>
+                        <price>42999</price>
+                    </vehicleModels>
+                    <vehicleModels ID="TM3LR">
+                        <name>Tesla Modle 3 Long Range</name>
+                        <modelYear>2022</modelYear>
+                        <class>Long Range</class>
+                        <price>48999</price>
+                    </vehicleModels>
+                    <vehicleModels ID="TM3P">
+                        <name>Tesla Modle 3 Performance</name>
+                        <modelYear>2022</modelYear>
+                        <class>Performance</class>
+                        <price>59999</price>
+                    </vehicleModels>
                 </vehicle>
-                <vehicle car="Model S">
+                <vehicle car="TMS">
                     <vehicleDescription></vehicleDescription>
-                    <modelYear>2022</modelYear>
-                    <model>Base</model>
+                    <vehicleModels ID="TMSB">
+                        <name>Tesla Modle S Base</name>
+                        <modelYear>2022</modelYear>
+                        <class>Base</class>
                         <price>89999</price>
-                    <model>Plaid</model>
+			        </vehicleModels>
+                    <vehicleModels ID="TMSP">
+                        <name>Tesla Modle S Plaid</name>
+                        <modelYear>2022</modelYear>
+                        <class>Plaid</class>
                         <price>123999</price>
+			        </vehicleModels>
                 </vehicle>
-                <vehicle car="Model X">
+                <vehicle car="TMX">
                     <vehicleDescription></vehicleDescription>
-                    <modelYear>2022</modelYear>
-                    <model>Base</model>
+                    <vehicleModels ID="TMXB">
+                        <name>Tesla Modle X Base<name>
+                        <modelYear>2022</modelYear>
+                        <class>Base</class>
                         <price>98999</price>
-                    <model>Plaid</model>
+			        </vehicleModels>
+                    <vehicleModels ID="TMXP">
+                        <name>Tesla Modle X Plaid</name>
+                        <modelYear>2022</modelYear>
+                        <class>Plaid</class>
                         <price>113999</price>
+			        </vehicleModels>
                 </vehicle>
-                <vehicle car="Model Y">
+                <vehicle car="TMY">
                     <vehicleDescription>
                     Model Y provides maximum versatility—able to carry 7 passengers and their cargo. 
                     Each second row seat folds flat independently, creating flexible storage for skis, furniture, luggage and more. 
                     The liftgate opens to a low trunk floor that makes loading and unloading easy and quick.
                     </vehicleDescription>
-                    <modelYear>2022</modelYear>
-                    <model>Long Range</model>
-                        <price>51995</price>
-                    <model>Performance</model>
-                        <price>56995</price>
+                    <vehicleModels ID="TMYB">
+                        <name>Tesla Modle Y Long Range<name>
+                        <modelYear>2022</modelYear>
+                        <class>Long Range</class>
+                        <price>51999</price>
+			        </vehicleModels>
+                    <vehicleModels ID="TMYP">
+                        <name>Tesla Modle Y Perfomance</name>
+                        <modelYear>2022</modelYear>
+                        <class>Performance</class>
+                        <price>56999</price>
+			        </vehicleModels>
                 </vehicle>
-        <manufacturer>
+        </manufacturer>
     </manufacturers>
 </carList>
